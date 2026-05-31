@@ -3,9 +3,9 @@ package stats
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/features"
+	"github.com/homestuck-ng/xray-core/common"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	"github.com/homestuck-ng/xray-core/features"
 )
 
 // Counter is the interface for stats counters.

@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/geodata"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/features/dns"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	"github.com/homestuck-ng/xray-core/common/geodata"
+	"github.com/homestuck-ng/xray-core/common/net"
+	"github.com/homestuck-ng/xray-core/features/dns"
 )
 
 // StaticHosts represents static domain-ip mapping in DNS server.

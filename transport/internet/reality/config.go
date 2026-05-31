@@ -9,8 +9,8 @@ import (
 
 	"github.com/cloudflare/circl/sign/mldsa/mldsa65"
 	"github.com/xtls/reality"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	"github.com/homestuck-ng/xray-core/transport/internet"
 )
 
 func (c *Config) GetREALITYConfig() *reality.Config {

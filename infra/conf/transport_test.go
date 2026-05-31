@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/transport/internet"
-	finalmaskcustom "github.com/xtls/xray-core/transport/internet/finalmask/header/custom"
+	. "github.com/homestuck-ng/xray-core/infra/conf"
+	"github.com/homestuck-ng/xray-core/transport/internet"
+	finalmaskcustom "github.com/homestuck-ng/xray-core/transport/internet/finalmask/header/custom"
 	"google.golang.org/protobuf/proto"
 )
 

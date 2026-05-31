@@ -1,8 +1,8 @@
 package proxyman
 
 import (
-	"github.com/xtls/xray-core/common/geodata"
-	"github.com/xtls/xray-core/common/session"
+	"github.com/homestuck-ng/xray-core/common/geodata"
+	"github.com/homestuck-ng/xray-core/common/session"
 )
 
 func BuildSniffingRequest(config *SniffingConfig) (session.SniffingRequest, error) {

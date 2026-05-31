@@ -3,18 +3,18 @@ package wireguard
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common/buf"
-	c "github.com/xtls/xray-core/common/ctx"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/homestuck-ng/xray-core/common/buf"
+	c "github.com/homestuck-ng/xray-core/common/ctx"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	"github.com/homestuck-ng/xray-core/common/log"
+	"github.com/homestuck-ng/xray-core/common/net"
+	"github.com/homestuck-ng/xray-core/common/session"
+	"github.com/homestuck-ng/xray-core/core"
+	"github.com/homestuck-ng/xray-core/features/dns"
+	"github.com/homestuck-ng/xray-core/features/policy"
+	"github.com/homestuck-ng/xray-core/features/routing"
+	"github.com/homestuck-ng/xray-core/transport"
+	"github.com/homestuck-ng/xray-core/transport/internet/stat"
 )
 
 var nullDestination = net.TCPDestination(net.AnyIP, 0)

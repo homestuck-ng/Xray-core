@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/geodata/strmatcher"
-	"github.com/xtls/xray-core/common/utils"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	"github.com/homestuck-ng/xray-core/common/geodata/strmatcher"
+	"github.com/homestuck-ng/xray-core/common/utils"
 )
 
 type DomainMatcher interface {

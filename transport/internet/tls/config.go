@@ -13,12 +13,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/ocsp"
-	"github.com/xtls/xray-core/common/platform/filesystem"
-	"github.com/xtls/xray-core/common/protocol/tls/cert"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	"github.com/homestuck-ng/xray-core/common/net"
+	"github.com/homestuck-ng/xray-core/common/ocsp"
+	"github.com/homestuck-ng/xray-core/common/platform/filesystem"
+	"github.com/homestuck-ng/xray-core/common/protocol/tls/cert"
+	"github.com/homestuck-ng/xray-core/transport/internet"
 )
 
 var globalSessionCache = tls.NewLRUClientSessionCache(128)

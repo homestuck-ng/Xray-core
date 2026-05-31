@@ -3,12 +3,12 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/xtls/xray-core/common/geodata"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	. "github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/proxy/freedom"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/homestuck-ng/xray-core/common/geodata"
+	"github.com/homestuck-ng/xray-core/common/net"
+	"github.com/homestuck-ng/xray-core/common/protocol"
+	. "github.com/homestuck-ng/xray-core/infra/conf"
+	"github.com/homestuck-ng/xray-core/proxy/freedom"
+	"github.com/homestuck-ng/xray-core/transport/internet"
 )
 
 func TestFreedomConfig(t *testing.T) {

@@ -9,9 +9,9 @@ import (
 	"time"
 
 	utls "github.com/homestuck-ng/utls"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/utils"
+	"github.com/homestuck-ng/xray-core/common/buf"
+	"github.com/homestuck-ng/xray-core/common/net"
+	"github.com/homestuck-ng/xray-core/common/utils"
 )
 
 type Interface interface {

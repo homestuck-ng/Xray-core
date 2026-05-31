@@ -1,8 +1,8 @@
 package tun
 
 import (
-	"github.com/xtls/xray-core/common/errors"
-	tunicmp "github.com/xtls/xray-core/proxy/tun/icmp"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	tunicmp "github.com/homestuck-ng/xray-core/proxy/tun/icmp"
 	"gvisor.dev/gvisor/pkg/buffer"
 	"gvisor.dev/gvisor/pkg/tcpip"
 	"gvisor.dev/gvisor/pkg/tcpip/header"

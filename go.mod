@@ -1,8 +1,8 @@
-module github.com/xtls/xray-core
+module github.com/homestuck-ng/xray-core
 
 go 1.26
 
-require (
+require (	
 	github.com/apernet/quic-go v0.59.1-0.20260425001925-6c6cc9bcb716
 	github.com/cloudflare/circl v1.6.3
 	github.com/ghodss/yaml v1.0.1-0.20220118164431-d8423dcdf344

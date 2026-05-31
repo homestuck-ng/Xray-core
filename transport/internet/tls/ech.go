@@ -16,14 +16,14 @@ import (
 	"time"
 
 	utls "github.com/homestuck-ng/utls"
-	"github.com/xtls/xray-core/common/crypto"
+	"github.com/homestuck-ng/xray-core/common/crypto"
 	"golang.org/x/net/http2"
 
 	"github.com/miekg/dns"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/utils"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	"github.com/homestuck-ng/xray-core/common/net"
+	"github.com/homestuck-ng/xray-core/common/utils"
+	"github.com/homestuck-ng/xray-core/transport/internet"
 	"golang.org/x/crypto/cryptobyte"
 )
 

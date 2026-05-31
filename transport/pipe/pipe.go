@@ -3,9 +3,9 @@ package pipe
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/signal/done"
-	"github.com/xtls/xray-core/features/policy"
+	"github.com/homestuck-ng/xray-core/common/signal"
+	"github.com/homestuck-ng/xray-core/common/signal/done"
+	"github.com/homestuck-ng/xray-core/features/policy"
 )
 
 // Option for creating new Pipes.

@@ -5,11 +5,11 @@ import (
 	"sync"
 
 	"github.com/robfig/cron/v3"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	commongeodata "github.com/xtls/xray-core/common/geodata"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/routing"
+	"github.com/homestuck-ng/xray-core/common"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	commongeodata "github.com/homestuck-ng/xray-core/common/geodata"
+	"github.com/homestuck-ng/xray-core/core"
+	"github.com/homestuck-ng/xray-core/features/routing"
 )
 
 type Instance struct {

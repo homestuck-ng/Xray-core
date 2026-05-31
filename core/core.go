@@ -14,7 +14,7 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	"github.com/xtls/xray-core/common/serial"
+	"github.com/homestuck-ng/xray-core/common/serial"
 )
 
 var (

@@ -3,10 +3,10 @@ package command
 import (
 	"context"
 
-	"github.com/xtls/xray-core/app/observatory"
-	"github.com/xtls/xray-core/common"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/extension"
+	"github.com/homestuck-ng/xray-core/app/observatory"
+	"github.com/homestuck-ng/xray-core/common"
+	core "github.com/homestuck-ng/xray-core/core"
+	"github.com/homestuck-ng/xray-core/features/extension"
 	"google.golang.org/grpc"
 )
 

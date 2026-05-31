@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol/udp"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport"
-	. "github.com/xtls/xray-core/transport/internet/udp"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/homestuck-ng/xray-core/common"
+	"github.com/homestuck-ng/xray-core/common/buf"
+	"github.com/homestuck-ng/xray-core/common/net"
+	"github.com/homestuck-ng/xray-core/common/protocol/udp"
+	"github.com/homestuck-ng/xray-core/features/routing"
+	"github.com/homestuck-ng/xray-core/transport"
+	. "github.com/homestuck-ng/xray-core/transport/internet/udp"
+	"github.com/homestuck-ng/xray-core/transport/pipe"
 )
 
 type TestDispatcher struct {

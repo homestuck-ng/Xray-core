@@ -5,12 +5,12 @@ import (
 
 	"github.com/sagernet/sing-shadowsocks/shadowaead_2022"
 	C "github.com/sagernet/sing/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/proxy/shadowsocks"
-	"github.com/xtls/xray-core/proxy/shadowsocks_2022"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	"github.com/homestuck-ng/xray-core/common/protocol"
+	"github.com/homestuck-ng/xray-core/common/serial"
+	"github.com/homestuck-ng/xray-core/common/task"
+	"github.com/homestuck-ng/xray-core/proxy/shadowsocks"
+	"github.com/homestuck-ng/xray-core/proxy/shadowsocks_2022"
 	"google.golang.org/protobuf/proto"
 )
 

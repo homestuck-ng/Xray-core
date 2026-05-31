@@ -12,14 +12,14 @@ import (
 
 	singM "github.com/sagernet/sing/common/metadata"
 	singN "github.com/sagernet/sing/common/network"
-	"github.com/xtls/xray-core/proxy"
-	"github.com/xtls/xray-core/transport/internet/finalmask"
-	"github.com/xtls/xray-core/transport/internet/finalmask/header/custom"
-	"github.com/xtls/xray-core/transport/internet/finalmask/mkcp/aes128gcm"
-	"github.com/xtls/xray-core/transport/internet/finalmask/mkcp/header"
-	"github.com/xtls/xray-core/transport/internet/finalmask/mkcp/original"
-	"github.com/xtls/xray-core/transport/internet/finalmask/salamander"
-	"github.com/xtls/xray-core/transport/internet/finalmask/sudoku"
+	"github.com/homestuck-ng/xray-core/proxy"
+	"github.com/homestuck-ng/xray-core/transport/internet/finalmask"
+	"github.com/homestuck-ng/xray-core/transport/internet/finalmask/header/custom"
+	"github.com/homestuck-ng/xray-core/transport/internet/finalmask/mkcp/aes128gcm"
+	"github.com/homestuck-ng/xray-core/transport/internet/finalmask/mkcp/header"
+	"github.com/homestuck-ng/xray-core/transport/internet/finalmask/mkcp/original"
+	"github.com/homestuck-ng/xray-core/transport/internet/finalmask/salamander"
+	"github.com/homestuck-ng/xray-core/transport/internet/finalmask/sudoku"
 )
 
 func mustSendRecv(

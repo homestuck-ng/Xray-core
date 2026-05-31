@@ -4,10 +4,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xtls/xray-core/common/geodata"
-	"github.com/xtls/xray-core/common/net"
-	. "github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/proxy/dns"
+	"github.com/homestuck-ng/xray-core/common/geodata"
+	"github.com/homestuck-ng/xray-core/common/net"
+	. "github.com/homestuck-ng/xray-core/infra/conf"
+	"github.com/homestuck-ng/xray-core/proxy/dns"
 )
 
 func TestDnsProxyConfig(t *testing.T) {

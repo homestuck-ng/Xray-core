@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/xtls/xray-core/common/geodata"
+	"github.com/homestuck-ng/xray-core/common/geodata"
 )
 
 func TestParseIPRules(t *testing.T) {

@@ -9,9 +9,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/main/commands/base"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/homestuck-ng/xray-core/common"
+	"github.com/homestuck-ng/xray-core/main/commands/base"
+	"github.com/homestuck-ng/xray-core/transport/internet/tls"
 	"golang.org/x/crypto/cryptobyte"
 )
 

@@ -6,12 +6,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/signal/done"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/homestuck-ng/xray-core/common"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	"github.com/homestuck-ng/xray-core/common/signal/done"
+	core "github.com/homestuck-ng/xray-core/core"
+	"github.com/homestuck-ng/xray-core/features/outbound"
+	"github.com/homestuck-ng/xray-core/transport/internet"
 	"google.golang.org/grpc"
 )
 

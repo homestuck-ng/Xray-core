@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"net"
 
-	"github.com/xtls/xray-core/common/crypto"
-	"github.com/xtls/xray-core/common/errors"
+	"github.com/homestuck-ng/xray-core/common/crypto"
+	"github.com/homestuck-ng/xray-core/common/errors"
 )
 
 type evalValue struct {

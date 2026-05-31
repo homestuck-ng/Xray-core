@@ -7,7 +7,7 @@
 package realm
 
 import (
-	tls "github.com/xtls/xray-core/transport/internet/tls"
+	tls "github.com/homestuck-ng/xray-core/transport/internet/tls"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -128,7 +128,7 @@ const file_transport_internet_finalmask_realm_config_proto_rawDesc = "" +
 	"\fstun_servers\x18\x06 \x03(\tR\vstunServers\x12B\n" +
 	"\n" +
 	"tls_config\x18\a \x01(\v2#.xray.transport.internet.tls.ConfigR\ttlsConfigB\x97\x01\n" +
-	"+com.xray.transport.internet.finalmask.realmP\x01Z<github.com/xtls/xray-core/transport/internet/finalmask/realm\xaa\x02'Xray.Transport.Internet.Finalmask.Realmb\x06proto3"
+	"+com.xray.transport.internet.finalmask.realmP\x01Z<github.com/homestuck-ng/xray-core/transport/internet/finalmask/realm\xaa\x02'Xray.Transport.Internet.Finalmask.Realmb\x06proto3"
 
 var (
 	file_transport_internet_finalmask_realm_config_proto_rawDescOnce sync.Once

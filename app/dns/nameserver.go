@@ -6,14 +6,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/geodata"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/utils"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/routing"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	"github.com/homestuck-ng/xray-core/common/geodata"
+	"github.com/homestuck-ng/xray-core/common/net"
+	"github.com/homestuck-ng/xray-core/common/session"
+	"github.com/homestuck-ng/xray-core/common/utils"
+	"github.com/homestuck-ng/xray-core/core"
+	"github.com/homestuck-ng/xray-core/features/dns"
+	"github.com/homestuck-ng/xray-core/features/routing"
 )
 
 // Server is the interface for Name Server.

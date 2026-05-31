@@ -8,12 +8,12 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/proxy/trojan"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	"github.com/homestuck-ng/xray-core/common/net"
+	"github.com/homestuck-ng/xray-core/common/protocol"
+	"github.com/homestuck-ng/xray-core/common/serial"
+	"github.com/homestuck-ng/xray-core/common/task"
+	"github.com/homestuck-ng/xray-core/proxy/trojan"
 	"google.golang.org/protobuf/proto"
 )
 

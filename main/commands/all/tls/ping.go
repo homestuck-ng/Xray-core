@@ -12,9 +12,9 @@ import (
 
 	utls "github.com/homestuck-ng/utls"
 
-	"github.com/xtls/xray-core/common/utils"
-	"github.com/xtls/xray-core/main/commands/base"
-	. "github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/homestuck-ng/xray-core/common/utils"
+	"github.com/homestuck-ng/xray-core/main/commands/base"
+	. "github.com/homestuck-ng/xray-core/transport/internet/tls"
 )
 
 // cmdPing is the tls ping command

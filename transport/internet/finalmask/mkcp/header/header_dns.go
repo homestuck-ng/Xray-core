@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/xtls/xray-core/common/dice"
+	"github.com/homestuck-ng/xray-core/common/dice"
 )
 
 type dns struct {

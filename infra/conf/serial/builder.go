@@ -4,12 +4,12 @@ import (
 	"context"
 	"io"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/platform"
-	creflect "github.com/xtls/xray-core/common/reflect"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/main/confloader"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	"github.com/homestuck-ng/xray-core/common/platform"
+	creflect "github.com/homestuck-ng/xray-core/common/reflect"
+	"github.com/homestuck-ng/xray-core/core"
+	"github.com/homestuck-ng/xray-core/infra/conf"
+	"github.com/homestuck-ng/xray-core/main/confloader"
 )
 
 // UseStrictJSON, when true, makes JSON config decoders skip the custom

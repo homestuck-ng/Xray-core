@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/xtls/xray-core/common/geodata/strmatcher"
+	. "github.com/homestuck-ng/xray-core/common/geodata/strmatcher"
 )
 
 func TestFullMatcherGroup(t *testing.T) {

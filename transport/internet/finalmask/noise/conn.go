@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common/crypto"
+	"github.com/homestuck-ng/xray-core/common/crypto"
 )
 
 type noiseConn struct {

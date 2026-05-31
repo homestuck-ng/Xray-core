@@ -8,17 +8,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/app/policy"
-	"github.com/xtls/xray-core/app/proxyman"
-	. "github.com/xtls/xray-core/app/proxyman/outbound"
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/session"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/proxy/freedom"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/homestuck-ng/xray-core/app/policy"
+	"github.com/homestuck-ng/xray-core/app/proxyman"
+	. "github.com/homestuck-ng/xray-core/app/proxyman/outbound"
+	"github.com/homestuck-ng/xray-core/app/stats"
+	"github.com/homestuck-ng/xray-core/common/net"
+	"github.com/homestuck-ng/xray-core/common/serial"
+	"github.com/homestuck-ng/xray-core/common/session"
+	core "github.com/homestuck-ng/xray-core/core"
+	"github.com/homestuck-ng/xray-core/features/outbound"
+	"github.com/homestuck-ng/xray-core/proxy/freedom"
+	"github.com/homestuck-ng/xray-core/transport/internet/stat"
 )
 
 func TestInterfaces(t *testing.T) {

@@ -8,15 +8,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/common/protocol/dns"
-	"github.com/xtls/xray-core/common/session"
-	dns_feature "github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/homestuck-ng/xray-core/common/buf"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	"github.com/homestuck-ng/xray-core/common/net"
+	"github.com/homestuck-ng/xray-core/common/net/cnc"
+	"github.com/homestuck-ng/xray-core/common/protocol/dns"
+	"github.com/homestuck-ng/xray-core/common/session"
+	dns_feature "github.com/homestuck-ng/xray-core/features/dns"
+	"github.com/homestuck-ng/xray-core/features/routing"
+	"github.com/homestuck-ng/xray-core/transport/internet"
 )
 
 // TCPNameServer implemented DNS over TCP (RFC7766).

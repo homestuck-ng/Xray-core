@@ -4,12 +4,12 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/homestuck-ng/xray-core/common"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	"github.com/homestuck-ng/xray-core/common/net"
+	"github.com/homestuck-ng/xray-core/common/net/cnc"
+	"github.com/homestuck-ng/xray-core/transport/internet"
+	"github.com/homestuck-ng/xray-core/transport/internet/stat"
 )
 
 func init() {

@@ -1,8 +1,8 @@
 # Project X
 
-[Project X](https://github.com/XTLS) originates from XTLS protocol, providing a set of network tools such as [Xray-core](https://github.com/XTLS/Xray-core) and [REALITY](https://github.com/XTLS/REALITY).
+[Project X](https://github.com/XTLS) originates from XTLS protocol, providing a set of network tools such as [Xray-core](https://github.com/homestuck-ng/xray-core) and [REALITY](https://github.com/XTLS/REALITY).
 
-[README](https://github.com/XTLS/Xray-core#readme) is open, so feel free to submit your project [here](https://github.com/XTLS/Xray-core/pulls).
+[README](https://github.com/homestuck-ng/xray-core#readme) is open, so feel free to submit your project [here](https://github.com/homestuck-ng/xray-core/pulls).
 
 ## Sponsors
 
@@ -12,7 +12,7 @@
 
 [![BlancVPN](https://github.com/user-attachments/assets/9145ea7d-5da3-446e-8143-710dba4292c3)](https://blanc.link/VMTSDqW)
 
-[**Sponsor Xray-core**](https://github.com/XTLS/Xray-core/issues/3668)
+[**Sponsor Xray-core**](https://github.com/homestuck-ng/xray-core/issues/3668)
 
 ## Donation & NFTs
 
@@ -29,11 +29,11 @@
 - **Project X NFT: https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1**
 - **VLESS NFT: https://opensea.io/collection/vless**
 - **REALITY NFT: https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/2**
-- **Related links: [VLESS Post-Quantum Encryption](https://github.com/XTLS/Xray-core/pull/5067), [XHTTP: Beyond REALITY](https://github.com/XTLS/Xray-core/discussions/4113), [Announcement of NFTs by Project X](https://github.com/XTLS/Xray-core/discussions/3633)**
+- **Related links: [VLESS Post-Quantum Encryption](https://github.com/homestuck-ng/xray-core/pull/5067), [XHTTP: Beyond REALITY](https://github.com/homestuck-ng/xray-core/discussions/4113), [Announcement of NFTs by Project X](https://github.com/homestuck-ng/xray-core/discussions/3633)**
 
 ## License
 
-[Mozilla Public License Version 2.0](https://github.com/XTLS/Xray-core/blob/main/LICENSE)
+[Mozilla Public License Version 2.0](https://github.com/homestuck-ng/xray-core/blob/main/LICENSE)
 
 ## Documentation
 
@@ -55,7 +55,7 @@
   - [XTLS/Xray-install](https://github.com/XTLS/Xray-install) (**Official**)
   - [tempest](https://github.com/team-cloudchaser/tempest) (supports [`systemd`](https://systemd.io) and [OpenRC](https://github.com/OpenRC/openrc); Linux-only)
 - Docker
-  - [ghcr.io/xtls/xray-core](https://ghcr.io/xtls/xray-core) (**Official**)
+  - [ghcr.io/homestuck-ng/xray-core](https://ghcr.io/homestuck-ng/xray-core) (**Official**)
   - [teddysun/xray](https://hub.docker.com/r/teddysun/xray)
   - [wulabing/xray_docker](https://github.com/wulabing/xray_docker)
 - Web Panel
@@ -175,14 +175,14 @@
 
 ## Contributing
 
-[Code of Conduct](https://github.com/XTLS/Xray-core/blob/main/CODE_OF_CONDUCT.md)
+[Code of Conduct](https://github.com/homestuck-ng/xray-core/blob/main/CODE_OF_CONDUCT.md)
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/XTLS/Xray-core)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/homestuck-ng/xray-core)
 
 ## Credits
 
-- [Xray-core v1.0.0](https://github.com/XTLS/Xray-core/releases/tag/v1.0.0) was forked from [v2fly-core 9a03cc5](https://github.com/v2fly/v2ray-core/commit/9a03cc5c98d04cc28320fcee26dbc236b3291256), and we have made & accumulated a huge number of enhancements over time, check [the release notes for each version](https://github.com/XTLS/Xray-core/releases).
-- For third-party projects used in [Xray-core](https://github.com/XTLS/Xray-core), check your local or [the latest go.mod](https://github.com/XTLS/Xray-core/blob/main/go.mod).
+- [Xray-core v1.0.0](https://github.com/homestuck-ng/xray-core/releases/tag/v1.0.0) was forked from [v2fly-core 9a03cc5](https://github.com/v2fly/v2ray-core/commit/9a03cc5c98d04cc28320fcee26dbc236b3291256), and we have made & accumulated a huge number of enhancements over time, check [the release notes for each version](https://github.com/homestuck-ng/xray-core/releases).
+- For third-party projects used in [Xray-core](https://github.com/homestuck-ng/xray-core), check your local or [the latest go.mod](https://github.com/homestuck-ng/xray-core/blob/main/go.mod).
 
 ## One-line Compilation
 
@@ -204,22 +204,22 @@ CGO_ENABLED=0 go build -o xray -trimpath -buildvcs=false -ldflags="-s -w -buildi
 Make sure that you are using the same Go version, and remember to set the git commit id (7 bytes):
 
 ```bash
-CGO_ENABLED=0 go build -o xray -trimpath -buildvcs=false -gcflags="all=-l=4" -ldflags="-X github.com/xtls/xray-core/core.build=REPLACE -s -w -buildid=" -v ./main
+CGO_ENABLED=0 go build -o xray -trimpath -buildvcs=false -gcflags="all=-l=4" -ldflags="-X github.com/homestuck-ng/xray-core/core.build=REPLACE -s -w -buildid=" -v ./main
 ```
 
 For Android:
 
 ```bash
-GOOS=android GOARCH=arm64 CGO_ENABLED=1 CC=/path/to/aarch64-linux-android24-clang go build -o xray -trimpath -buildvcs=false -gcflags="all=-l=4" -ldflags="-X github.com/xtls/xray-core/core.build=REPLACE -s -w -buildid= -checklinkname=0" -v ./main
-GOOS=android GOARCH=amd64 CGO_ENABLED=1 CC=/path/to/x86_64-linux-android24-clang go build -o xray -trimpath -buildvcs=false -gcflags="all=-l=4" -ldflags="-X github.com/xtls/xray-core/core.build=REPLACE -s -w -buildid= -checklinkname=0" -v ./main
+GOOS=android GOARCH=arm64 CGO_ENABLED=1 CC=/path/to/aarch64-linux-android24-clang go build -o xray -trimpath -buildvcs=false -gcflags="all=-l=4" -ldflags="-X github.com/homestuck-ng/xray-core/core.build=REPLACE -s -w -buildid= -checklinkname=0" -v ./main
+GOOS=android GOARCH=amd64 CGO_ENABLED=1 CC=/path/to/x86_64-linux-android24-clang go build -o xray -trimpath -buildvcs=false -gcflags="all=-l=4" -ldflags="-X github.com/homestuck-ng/xray-core/core.build=REPLACE -s -w -buildid= -checklinkname=0" -v ./main
 ```
 
 If you are compiling a 32-bit MIPS/MIPSLE target, use this command instead:
 
 ```bash
-CGO_ENABLED=0 go build -o xray -trimpath -buildvcs=false -gcflags="-l=4" -ldflags="-X github.com/xtls/xray-core/core.build=REPLACE -s -w -buildid=" -v ./main
+CGO_ENABLED=0 go build -o xray -trimpath -buildvcs=false -gcflags="-l=4" -ldflags="-X github.com/homestuck-ng/xray-core/core.build=REPLACE -s -w -buildid=" -v ./main
 ```
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/XTLS/Xray-core.svg)](https://starchart.cc/XTLS/Xray-core)
+[![Stargazers over time](https://starchart.cc/homestuck-ng/xray-core.svg)](https://starchart.cc/homestuck-ng/xray-core)

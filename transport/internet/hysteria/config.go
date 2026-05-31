@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/proxy/hysteria/account"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/homestuck-ng/xray-core/common"
+	"github.com/homestuck-ng/xray-core/proxy/hysteria/account"
+	"github.com/homestuck-ng/xray-core/transport/internet"
 )
 
 const (

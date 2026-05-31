@@ -14,12 +14,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/xtls/xray-core/common/cmdarg"
-	"github.com/xtls/xray-core/common/errors"
-	clog "github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/homestuck-ng/xray-core/common/cmdarg"
+	"github.com/homestuck-ng/xray-core/common/errors"
+	clog "github.com/homestuck-ng/xray-core/common/log"
+	"github.com/homestuck-ng/xray-core/common/platform"
+	"github.com/homestuck-ng/xray-core/core"
+	"github.com/homestuck-ng/xray-core/main/commands/base"
 )
 
 var cmdRun = &base.Command{
