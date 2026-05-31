@@ -14,7 +14,7 @@ require (
 	github.com/pelletier/go-toml v1.9.5
 	github.com/pion/stun/v3 v3.1.2
 	github.com/pires/go-proxyproto v0.12.0
-	github.com/homestuck-ng/utls v1.8.2
+	github.com/homestuck-ng/utls v1.8.3
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/sagernet/sing v0.5.1
 	github.com/sagernet/sing-shadowsocks v0.2.7
