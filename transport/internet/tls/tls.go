@@ -8,7 +8,7 @@ import (
 	"slices"
 	"time"
 
-	utls "github.com/refraction-networking/utls"
+	utls "github.com/homestuck-ng/utls"
 	"github.com/xtls/xray-core/common/buf"
 	"github.com/xtls/xray-core/common/net"
 	"github.com/xtls/xray-core/common/utils"
@@ -138,8 +138,10 @@ func (c *UConn) NegotiatedProtocol() string {
 }
 
 func UClient(c net.Conn, config *tls.Config, fingerprint *utls.ClientHelloID) net.Conn {
-	utlsConn := utls.UClient(c, copyConfig(config), *fingerprint)
-	return &UConn{UConn: utlsConn}
+    cfg := copyConfig(config)
+    cfg.OmitEmptyPsk = true
+    utlsConn := utls.UClient(c, cfg, *fingerprint)
+    return &UConn{UConn: utlsConn}
 }
 
 func GeneraticUClient(c net.Conn, config *tls.Config) *utls.UConn {
